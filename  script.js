@@ -23,9 +23,11 @@ const sample =(a,b)=>{
 }
 
 //3. callback function 
+//if we call a function as an argument inside another function 
+//callback=demo()
 callback=demo 
-function sample(){
-    console.log(sample);
+function sample(callback){
+    console.log("sample");
     callback();
 }
 
