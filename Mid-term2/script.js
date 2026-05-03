@@ -1,8 +1,13 @@
-// console.log("A");
-// setTimeout(()=>{
-//   console.log("B");
-// },2000);
-// console.log("c");
+console.log("A");
+setTimeout(()=>{
+  console.log("B");
+},2000);
+setTimeout(()=>{
+  console.log("c");
+},5000);
+
+console.log("D");
+
 
 
 // document.getElementById("demo").innerHTML = "Hi";
@@ -15,12 +20,12 @@
 //document.getElementById("demo").innerText
 // 3. textContent
 //document.getElementById("demo").textContent 
-function A(){
- console.log("A");
-}
+// function A(){
+//  console.log("A");
+// }
 
-function B(){
- A();
-}
+// function B(){
+//  A();
+// }
 
-B();
+// B();
